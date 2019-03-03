@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.apk.security</groupId>
+    <artifactId>fkysrApk</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>net.morimekta.utils</groupId>
+            <artifactId>android-util</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.neenbedankt.gradle.plugins</groupId>
+            <artifactId>android-apt</artifactId>
+            <version>1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.crypteron</groupId>
+            <artifactId>crypteron-jce</artifactId>
+            <version>2017.7.1.2</version>
+        </dependency>
+    </dependencies>
+
+</project>
